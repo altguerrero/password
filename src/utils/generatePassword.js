@@ -1,4 +1,4 @@
-import { chars, numbers, specialChars } from "../constants/generatePassword";
+import { chars, numbers, specialChars } from "../constants";
 
 export const generatePassword = (addNumbers, addSpecialChars, length) => {
   let passwordChars = chars;
