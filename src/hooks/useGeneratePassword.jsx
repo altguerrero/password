@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { generatePassword } from "../utils/generatePassword";
+import { generatePassword } from "../utils";
 
 export const useGeneratePassword = () => {
   const [length, setLength] = useState(12);
